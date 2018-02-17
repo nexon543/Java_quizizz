@@ -1,5 +1,6 @@
+package string;
 
-public class ExploreString {
+public class StringHashCode {
 
 	public static void generateStringHashCode()
 	{
@@ -19,18 +20,16 @@ public class ExploreString {
 		    System.out.println("AaBB".hashCode());
 		    System.out.println("BBAa".hashCode());
 	}
+	
+	public static void stringIsEmpty() {
+		System.out.println("\"\".isEmpty():"+"".isEmpty());
+		System.out.println("new String().isEmpty():"+new String().isEmpty());
+	}
 	public static void main(String[] args) {
 		
 		//generateStringHashCode();
-		emptyString();
+		stringIsEmpty();
 
 	}
 
-	public static void emptyString ()
-	{
-		String str=new String();
-		boolean literalResult="".isEmpty();
-		boolean objectResult=str.isEmpty();
-		System.out.println("\"\".isEmpty():"+literalResult+"\n new String().isEmpty():"+objectResult);
-	}
 }
