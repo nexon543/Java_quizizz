@@ -1,4 +1,4 @@
-package string;
+package data_types.string;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

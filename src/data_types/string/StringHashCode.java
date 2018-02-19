@@ -1,4 +1,4 @@
-package string;
+package data_types.string;
 
 public class StringHashCode {
 

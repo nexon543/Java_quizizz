@@ -12,7 +12,7 @@ public class Final {
 	}
 	public Final() {
 		//staticFinalVar=1; //error
-		//finalVar=2; //initialized in logic block
+		//finalVar=2; //initialized first in logic block
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
