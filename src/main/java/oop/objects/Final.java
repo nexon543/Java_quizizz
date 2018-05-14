@@ -1,4 +1,4 @@
-package oop.class_object;
+package oop.objects;
 
 public class Final {
 

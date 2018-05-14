@@ -1,4 +1,4 @@
-package collections;
+package collections.map;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,5 +27,4 @@ public class MapTest {
 	class ChangableType{
 		int value=0;
 	}
-
 }
